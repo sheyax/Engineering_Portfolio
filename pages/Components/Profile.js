@@ -18,8 +18,8 @@ export default function Profile() {
    
     
     <div className=" md:ml-20 md:my-32 text-white  flex flex-col items-center justify-center  ">
-    <h1 className='  md:text-3xl text-2xl font-bold ' >HELLO I'M SHEYI OYENAME</h1>
-    <h1 className='text-lg ' >Aircraft Design Engineer</h1>
+    <h1 className='  md:text-3xl text-2xl font-bold ' >HELLO I AM SHEYI OYENAME</h1>
+    <h1 className='text-lg ' >Aircraft Design Engineer</h1> 
 
     <p className='py-2 w-4/5 text-gray-200 text-center text-sm'>I am an Aircraft Design Engineer with 2 years of industrial experience in UAV design, simulation and manufacturing</p>
     </div>
