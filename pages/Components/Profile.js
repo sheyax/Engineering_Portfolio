@@ -10,7 +10,7 @@ export default function Profile() {
         
         <div className='md:flex w-full h-full bg-gray-900 bg-opacity-70 backdrop-blur-sm items-center justify-center '> 
         <div className='mt-4 mx-20 md:mt-0 md:mx-0'>
- <Image src='/profile.jpg' width={250}
+ <Image src='/profile.jpg' width={250} alt=''
       height={250}
       layout='intrinsic'
        className='object-cover object-center  rounded-full mt-5 md:mx-4 '/>
