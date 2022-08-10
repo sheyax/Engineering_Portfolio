@@ -11,7 +11,7 @@ export default function PageLayout(props) {
         <ul className='flex space-x-5 p-5 text-md'>
             <li>
                 <Link href='#'>
-                <a className='hover:opacity-50' href='#'>About</a></Link>
+                <a className='hover:opacity-50' href=''>About</a></Link>
             </li>
             <li>
                 <Link href='#'>
@@ -31,7 +31,7 @@ export default function PageLayout(props) {
             <meta name="description" content="Sheyi Oyename Aircraft Design Engineer"/> 
         </Head>
     
-    <nav className='bg-gray-200 flex items-center justify-between w-2/3'>
+    <nav className='bg-black text-white w-full flex items-center justify-between md:w-2/3 '>
         <div>
       
                 <Link href='/'>
@@ -48,6 +48,10 @@ export default function PageLayout(props) {
             {props.children}
         </main>
     </div>
+
+    <footer className='bg-black mt-10 text-white w-full flex justify-center items-center h-40'>
+        <h1>Copyright 2022 Vratec Designs</h1>
+    </footer>
     </div>
   );
 }
