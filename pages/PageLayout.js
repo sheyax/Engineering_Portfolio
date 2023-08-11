@@ -24,14 +24,14 @@ export default function PageLayout(props) {
         </ul>
     )
   return (
-    <div className='h-full bg-gray-200 flex flex-col items-center '>
+    <div className='h-full bg-gray-200 flex flex-col items-center'>
 
         <Head>
             <title>Sheyi Oyename</title>
             <meta name="description" content="Sheyi Oyename Aircraft Design Engineer"/> 
         </Head>
     
-    <nav className='bg-black text-white w-full flex items-center justify-between md:w-2/3 '>
+    <nav className='bg-black text-white w-full flex items-center justify-between  '>
         <div>
       
                 <Link href='/'>

@@ -13,10 +13,17 @@ export default function Projects() {
     </Link>
   </div>
   <div className="bg-[url('/streamline.jpg')] bg-cover bg-center hover:opacity-80">
+  <Link href='./projects/hexa'>
+    <a href=''>
   <ProjectBanner projectName='Hexacopter Canopy CFD analysis'/>
+  </a>
+  </Link>
   </div>
   <div className="bg-[url('/joint.jpg')] bg-cover bg-center hover:opacity-80">
-  <ProjectBanner projectName='Universal Joint Design'/>
+    <Link href="./projects/unijoint">
+    <a href="">
+  <ProjectBanner projectName='Universal Joint Design'/></a>
+  </Link>
   </div>
 </div>
 
