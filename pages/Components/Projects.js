@@ -29,10 +29,19 @@ export default function Projects() {
 
 <div className='md:grid md:grid-flow-col md:grid-cols-3 grid grid-flow-row  h-80 '>
   <div className="bg-[url('/fishgrader.jpg')] bg-cover bg-center hover:opacity-80">
-  <ProjectBanner projectName='Fish Sorting Mechanism'/>
+    <Link href="./projects/fuzzylogic">
+    <a href="">
+  <ProjectBanner projectName='Smart Irrigation System'/>
+  </a>
+  </Link>
   </div>
   <div className="bg-[url('/release.jpg')] bg-cover bg-center hover:opacity-80">
-  <ProjectBanner projectName='Wing Realease Mechanism Design'/>
+    <Link href="./projects/rcam">
+    <a href="">
+    <ProjectBanner projectName='MATLAB Flight Simulator'/>
+    </a>
+    </Link>
+ 
   </div>
   <div className="bg-[url('/visflow.jpg')] bg-cover bg-center hover:opacity-80">
   <ProjectBanner projectName='Spray Nozzle Optimization'/>
