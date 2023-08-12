@@ -13,13 +13,13 @@ export default function Home() {
       <PageLayout>
     <Profile/>
 
-<div className='flex items-center justify-center my-5'>
+<div className='flex items-center justify-center my-5' id="about">
 <h1 className='text-2xl font-bold text-gray-900'>Specialties</h1>
 </div>
         
 <Specialties/>
 
-<div className='flex items-center justify-center my-5'>
+<div className='flex items-center justify-center my-5' id="projects">
 <h1 className='text-2xl font-bold text-gray-900'>Projects</h1>
 </div>
 

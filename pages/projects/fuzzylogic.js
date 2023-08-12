@@ -11,7 +11,7 @@ export default function FuzzyLogic(){
     <div className="col-span-3 md:p-2 space-y-10 bg-gray-300">
         <div className="h-full">
     <ReactPlayer
-        url="https://vimeo.com/853946732"
+        url="https://vimeo.com/853989386"
         controls={true}
         width='100%'
         height='100%'

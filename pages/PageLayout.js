@@ -10,11 +10,11 @@ export default function PageLayout(props) {
     menu=(
         <ul className='flex space-x-5 p-5 text-md'>
             <li>
-                <Link href='#'>
+                <Link href='#about'>
                 <a className='hover:opacity-50' href=''>About</a></Link>
             </li>
             <li>
-                <Link href='#'>
+                <Link href='#projects'>
                 <a className='hover:opacity-50' href='#'>Projects</a></Link>
             </li>
             <li>
@@ -31,7 +31,7 @@ export default function PageLayout(props) {
             <meta name="description" content="Sheyi Oyename Aircraft Design Engineer"/> 
         </Head>
     
-    <nav className='bg-black text-white w-full flex items-center justify-between  '>
+    <nav className='sticky z-40 bg-black text-white w-full flex items-center justify-between'>
         <div>
       
                 <Link href='/'>
