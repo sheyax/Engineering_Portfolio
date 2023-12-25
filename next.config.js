@@ -14,6 +14,7 @@ const nextConfig = {
   distDir: 'dist',
   images: {
     unoptimized: true
+  }
 }
  
 module.exports = nextConfig
